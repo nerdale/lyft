@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
   <title>Lyft</title>
   <!-- Compiled and minified CSS -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -30,11 +30,16 @@
   <section>
     <div class="container">
       <div class="row">
-        <div class="col s3 center-align">
-          <a href="index.html"><div class="boton-bandera grey lighten-1 waves-effect waves-light"><img src="img/CL.png" alt="chile" class="bandera-pais"><i class="material-icons band">expand_more</i></a></div>
+        <div class="input-field col s4">
+          <select>
+            <option value="" disabled selected>País</option>
+            <option value="" data-icon="img/CL.png" class="left">Chile</option>
+            <option value="" data-icon="img/PE.png" class="left">Perú</option>
+            <option value="" data-icon="img/MX.png" class="left">México</option>
+          </select>
         </div>
         <!-- input keyboard mobile -->
-        <div class="col s9 input-phone">
+        <div class="col s8 input-phone">
           <input type="tel" placeholder="+56 9">
         </div>
       </div>
@@ -46,15 +51,15 @@
     </div>
   </section>
   <!-- footer -->
-        <footer class="background-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col s12">
-                <h5 class="white-text center-align">NEXT</h5>
-              </div>
-            </div>
-          </div>
-        </footer>
+  <footer class="background-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h5 class="white-text center-align">NEXT</h5>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!-- /container -->
   <script type='text/javascript' src='js/jquery-3.1.1.min.js'></script>
   <!-- Compiled and minified JavaScript -->
