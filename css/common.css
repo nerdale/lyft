@@ -1,0 +1,21 @@
+.background-footer{
+	background-color: #FF05B8;
+	margin-top: -3%;
+	position: fixed;
+	z-index: 2;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	transform: translateY(0);
+}
+/*
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+*/
